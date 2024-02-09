@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounceball</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-color: slategrey;
+        }
+        .ball1{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color:blue;
+            text-align: center;
+            animation-name: bounce;
+            animation-duration:8s;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            position: absolute;
+            animation-direction:alternate;
+        }
+        .ball2{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            animation-name: bounce;
+            animation-duration: 8s;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in;
+            position: absolute;
+            animation-direction:alternate;
+        }
+        .ball3{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            animation-name: bounce;
+            animation-duration: 8s;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in-out;
+            position: absolute;
+            animation-direction:alternate;
+        }
+        .ball4{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            animation-name: bounce;
+            animation-duration: 8s;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-out;
+            position: absolute;
+            animation-direction:alternate;
+        }
+        .ball5{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            text-align: center;
+            animation-name: bounce;
+            animation-duration:8s;
+            animation-delay:0s;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+            position: absolute;
+            animation-direction:alternate;
+        }
+        @keyframes bounce{
+            0%{background-color:blue;left: 0px;top: 0px;}
+            25%{background-color: blueviolet;top:555px;left: 680px ;}
+            50%{background-color: brown;top:0px;left:1280px}
+            75%{background-color: burlywood;top:555px ;left:680px;}
+            100%{background-color:tomato;left:0px;top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <center><h1>BOUNCE BALL</h1></center>
+    <div class="ball1"><h3 style="margin-top:35px;">Selva</h3></div>
+    <div class="ball2"><h3 style="margin-top:35px;">Raja</h3></div>
+    <div class="ball3"><h3 style="margin-top:35px;">Saras</h3></div>
+    <div class="ball4"><h3 style="margin-top:35px;">Abi</h3></div>
+    <div class="ball5"><h3 style="margin-top:35px;">Sanjana</h3></div>
+</body>
+</html>
